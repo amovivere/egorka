@@ -6,24 +6,24 @@ body {
 
 }
 p, h1, h2, h3 {
-    color: #f8f8f8;
-    text-decoration: none;
+
+
 }
 a {
-    color: #cecece;
+    color: #ffffff;
     text-decoration: none;
 }
 a:hover {
-    color: #ffffff;
+    color: #000000;
 }
-nav {
+nav a {
     align-content: center;
     margin-bottom: 25px;
-    padding: 20px;
-    border: 2px dotted #676767;
-    background-color: #454545;
-    width: 400px;
+    padding: 10px;
+    background-color: #000000;
+    border-bottom: 2px solid #ffffff;
     box-sizing: border-box;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -32,12 +32,16 @@ ul {
     margin-left: 0;
     padding-left: 0;
 }
-table {
-    background: #915d5d;    
+.otp {
+    margin-top: 25px;
 }
-.ava {
-    border: none;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+.home:hover {
+    background: #ffffff;
+}
+.content p {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    width: 600px;
 }
