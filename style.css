@@ -61,10 +61,42 @@ table {
 }
 h3 a{
     color: #ffffff;
-    border-bottom: #ffffff 1px solid;
+    border: #ffffff 1px solid;
 }
 h3 a:hover {
     background: #ffffff;
     color: black;
-    border-bottom: #ffffff 1px solid;
 }
+/*.dropbtn {
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background: black;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 50px;
+    box-shadow: 0px 8px 16px 0px rgbs(0,0,0,0.2);
+    z-index: 1;
+    border: black 1px solid;
+}
+.dropdown-content a {
+    display: block;  
+    background: white;
+    color: black;
+        width: 80px;
+    padding: 10px;
+}
+.dropdown-content a:hover {
+    border-bottom: black 1px solid;
+
+    color: black;
+}
+.show {
+    display: block;
+} */
