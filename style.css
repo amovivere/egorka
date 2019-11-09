@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bold;
     background-color: #000000;
     color: white;
     text-align: center;
@@ -10,19 +11,19 @@ p, h1, h2, h3 {
     text-decoration: none;
 }
 a {
-    color: #cecece;
+    color: #ffffff;
     text-decoration: none;
+    padding: 5px
 }
 a:hover {
-    color: #ffffff;
+    border: #ffffff solid 1px;
 }
 nav {
     align-content: center;
     margin-bottom: 25px;
     padding: 20px;
-    border: 2px dotted #676767;
-    background-color: #454545;
-    width: 400px;
+    border: 1px solid #ffffff;
+    width: 200px;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -32,6 +33,21 @@ ul {
     margin-left: 0;
     padding-left: 0;
 }
+
+
+/* ВЫШЕ НАХОДИТСЯ ОСНОВА */
+
+ul li {
+    padding: 10px;
+}
+.why h2 {
+    padding: 10px;
+    border-bottom: 1px solid #ffffff;
+    box-sizing: border-box;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
 table {
     background: #915d5d;    
 }
@@ -40,4 +56,15 @@ table {
     border-radius: 50%;
     width: 300px;
     height: 300px;
+}
+.dropdown{
+}
+h3 a{
+    color: #ffffff;
+    border-bottom: #ffffff 1px solid;
+}
+h3 a:hover {
+    background: #ffffff;
+    color: black;
+    border-bottom: #ffffff 1px solid;
 }

@@ -1,15 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bold;
     background-color: #000000;
     color: white;
     text-align: center;
 
 }
-p, h1, h2, h3 {
-
+p{
+    padding: 10px;
 
 }
-a {
+h2{
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+a{
     color: #ffffff;
     text-decoration: none;
 }
