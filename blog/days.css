@@ -4,7 +4,7 @@ body {
     background-color: #000000;
     color: white;
     text-align: center;
-
+    line-height: 150%;
 }
 p{
     padding: 10px;
@@ -53,4 +53,11 @@ ul {
     padding: auto;
     box-sizing: border-box;
     width: 600px;
+}
+.content a {
+    border-bottom: 1px #ffffff solid;
+    padding: 2px;
+}
+.content a:hover {
+    background: #ffffff;
 }
