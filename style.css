@@ -57,13 +57,27 @@ table {
     width: 300px;
     height: 300px;
 }
-.dropdown{
-}
 h3 a{
     color: #ffffff;
     border: #ffffff 1px solid;
 }
 h3 a:hover {
+    background: #ffffff;
+    color: black;
+}
+.me {
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.me a {
+    border: 2px solid #ffffff;
+    padding-top: 20px;
+}
+.me a:hover {
     background: #ffffff;
     color: black;
 }

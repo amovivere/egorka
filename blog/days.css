@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
 body {
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Share Tech Mono', monospace;/*"Lucida Console", Monaco, monospace;*/
     font-weight: bold;
     background-color: #000000;
     color: white;
     text-align: center;
     line-height: 150%;
+    text-transform: uppercase;
 }
 p{
     padding: 10px;
-
+    padding-bottom: 75px;
 }
 h2{
     border-bottom: 1px solid;
